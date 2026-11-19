@@ -83,7 +83,7 @@ DATABASES = {
         "PORT": env.int("DB_PORT", default=5432),
         "CONN_MAX_AGE": env.int("CONN_MAX_AGE", default = 0),
         "OPTIONS": {
-            "sslmode": "require",
+            "sslmode": env("DB_SSLMODE", default="require")
         }
     }
 }
