@@ -11,7 +11,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/DrBayo01/Vaultly">
     <img src="images/logo.png" alt="Logo" width="300" height="160">
   </a>
 
@@ -42,6 +42,9 @@
         <li><a href="#construido-con">Construido con</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#demo-en-vivo">Demo en vivo</a>
+      </li>
     <li>
       <a href="#primeros-pasos">Primeros Pasos</a>
       <ul>
@@ -78,11 +81,31 @@ Este proyecto lo hice pensando en eso para uso personal, y he decidido que cualq
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
+## Demo en vivo
 
+La API está desplegada en **Render** con base de datos **PostgreSQL en Neon**:
+
+- **URL base:** `https://vaultly-ry34.onrender.com/`
+- **API:** `https://vaultly-ry34.onrender.com/api/` *(ajusta la ruta si difiere)*
+
+> **Nota sobre tiempos de respuesta (Cold Start):** Al estar alojada en el plan gratuito de Render (y con base de datos gratuita en Neon), el servicio puede dormirse tras unos minutos sin actividad. **La primera petición puede tardar varios segundos en despertar**; las siguientes responden con normalidad.
+
+### Credenciales de prueba (cuenta estándar)
+- **Usuario:** `demo_user`
+- **Contraseña:** `contraseñasecreta`
+
+*(Cuenta de demostración sin privilegios de administrador para probar el flujo de usuario y permisos en DRF).*
+
+### Cómo probarlo
+1. Entra a la URL de la API o documentación en Render (ten paciencia si tarda unos segundos en despertar).
+2. Inicia sesión con el usuario y contraseña de prueba.
+3. Crea, lista o filtra libros según los endpoints disponibles.
+
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
 ## Primeros pasos
 
-Sigue las siguientes instrucciones para levantar el proyecto en local.
+Sigue estas instrucciones para levantar el proyecto en local.
 
 ### Requisitos
 
@@ -95,11 +118,11 @@ Asegurate de tener instalado:
 
 1. Clona el repositorio
    ```sh
-   git clone https://github.com/DrBayo01/library_project.git
+   git clone https://github.com/DrBayo01/Vaultly.git
    ```
 2. Ve al directorio
    ```sh
-   cd library_project
+   cd Vaultly
    ```
 3. Renombra el archivo .env.example a .env
    ```sh
