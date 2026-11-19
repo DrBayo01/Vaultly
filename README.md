@@ -39,7 +39,7 @@
     <li>
       <a href="#sobre-el-proyecto">Sobre el proyecto</a>
       <ul>
-        <li><a href="#construido-con">Construido con</a></li>
+        <li><a href="#construido-con">Construido con...</a></li>
       </ul>
     </li>
     <li>
@@ -69,7 +69,7 @@ Este proyecto lo hice pensando en eso para uso personal, y he decidido que cualq
 
 
 
-### Construido con
+### Construido con...
 
 * [![Python][Python]][Python-url]
 * [![Django][Django]][Django-url]
